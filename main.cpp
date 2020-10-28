@@ -1,9 +1,10 @@
 #include <iostream>
-
-using namespace std
-
+using namespace std;
 int main() {
-    cout << "Hello world!\n";
+    char name[20];
+    cout << "Enter your name: ";
+    cin >> name;
+    cout << "Hello, " << name << "!\n";
     system("pause");
     return 0;
 }
